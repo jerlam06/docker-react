@@ -8,4 +8,4 @@ before_install:
 
 # Ran when our test needs to be executed
 script:
-  - docker run jerlam06/docker-react npm run test -- --coverage
+  - docker run jerlam06/docker-react npm run test -- --watchAll=false
